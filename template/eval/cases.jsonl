@@ -1,0 +1,2 @@
+{"id": "t01", "question": "예시 읽기 질문", "expect": {"must_call": ["read_something"], "max_steps": 4}}
+{"id": "t02", "question": "예시 쓰기 요청", "expect": {"must_call": ["write_something"], "must_interrupt": true, "max_steps": 6}}
